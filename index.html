@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script defer src="jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script defer src="script.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title></title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="survey" style"clear: both;">
+        <div id="surveyInner" style="">
+          <div style="font-family: Verdana; font-size: 1em;">
+            <div id="wrapper" style="position: relative; width: 100%; height: 95px; background: #ffffff;">
+              <div style="position: absolute; top: 20px; left: 10px; z-index: 1;">
+                <img src="bilder/logo.png" width="635" height="75">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="content">
+          <strong><span id="takeaway">Take-Away</span></strong>
+          <div id="container2">
+            <span>
+              <strong><span style="color: black;">Välj restaurang och visa upp valet i kassan.</span></strong>
+              <span style="color:red;"> *</span>
+            </span>
+
+            <div id="places">
+              <div class="place" id="place1">
+                <div class="btns" onclick="clicked(this.id)" id="p+1-1"><div class="innerbtns"></div></div>
+                <span class="name">Bistro RAW</span>
+              </div>
+
+              <div class="place" id="place2">
+                <div class="btns" onclick="clicked(this.id)" id="p+2-1"><div class="innerbtns"></div></div>
+                <span class="name">Bykrogen Landsbro</span>
+              </div>
+
+              <div class="place" id="place3">
+                <div class="btns" onclick="clicked(this.id)" id="p+3-1"><div class="innerbtns"></div></div>
+                <span class="name">Centralhotellet</span>
+              </div>
+
+              <div class="place" id="place4">
+                <div class="btns" onclick="clicked(this.id)" id="p+4-1"><div class="innerbtns"></div></div>
+                <span class="name">Chili Thai</span>
+              </div>
+
+              <div class="place" id="place5">
+                <div class="btns" onclick="clicked(this.id)" id="p+5-1"><div class="innerbtns"></div></div>
+                <span class="name">Diaas hemlagade mat</span>
+              </div>
+
+              <div class="place" id="place6">
+                <div class="btns" onclick="clicked(this.id)" id="p+6-1"><div class="innerbtns"></div></div>
+                <span class="name">Espresso House</span>
+              </div>
+
+              <div class="place" id="place7">
+                <div class="btns" onclick="clicked(this.id)" id="p+7-1"><div class="innerbtns"></div></div>
+                <span class="name">Fish And Chips Shop (Korsberga)</span>
+              </div>
+
+              <div class="place" id="place8">
+                <div class="btns" onclick="clicked(this.id)" id="p+8-1"><div class="innerbtns"></div></div>
+                <span class="name">Hasses gatukök</span>
+              </div>
+
+              <div class="place" id="place9">
+                <div class="btns" onclick="clicked(this.id)" id="p+9-1"><div class="innerbtns"></div></div>
+                <span class="name">Konditori Cecil Stadshuset AB</span>
+              </div>
+
+              <div class="place" id="place10">
+                <div class="btns" onclick="clicked(this.id)" id="p+10-1"><div class="innerbtns"></div></div>
+                <span class="name">Konditori Stjärnan</span>
+              </div>
+
+              <div class="place" id="place11">
+                <div class="btns" onclick="clicked(this.id)" id="p+11-1"><div class="innerbtns"></div></div>
+                <span class="name">Korsberga pizzeria</span>
+              </div>
+
+              <div class="place" id="place12">
+                <div class="btns" onclick="clicked(this.id)" id="p+12-1"><div class="innerbtns"></div></div>
+                <span class="name">McDonald´s</span>
+              </div>
+
+              <div class="place" id="place13">
+                <div class="btns" onclick="clicked(this.id)" id="p+13-1"><div class="innerbtns"></div></div>
+                <span class="name">	Oskar Konditori</span>
+              </div>
+
+              <div class="place" id="place14">
+                <div class="btns" onclick="clicked(this.id)" id="p+14-1"><div class="innerbtns"></div></div>
+                <span class="name">Pizzeria Arena</span>
+              </div>
+
+              <div class="place" id="place15">
+                <div class="btns" onclick="clicked(this.id)" id="p+15-1"><div class="innerbtns"></div></div>
+                <span class="name">Restaurang & Pizzeria Napoli (Ekenässjön)</span>
+              </div>
+
+              <div class="place" id="place16">
+                <div class="btns" onclick="clicked(this.id)" id="p+16-1"><div class="innerbtns"></div></div>
+                <span class="name">Restaurang Bar & Ät</span>
+              </div>
+
+              <div class="place" id="place17">
+                <div class="btns" onclick="clicked(this.id)" id="p+17-1"><div class="innerbtns"></div></div>
+                <span class="name">	Restaurang Ceylan</span>
+              </div>
+
+              <div class="place" id="place18">
+                <div class="btns" onclick="clicked(this.id)" id="p+18-1"><div class="innerbtns"></div></div>
+                <span class="name">Sapa Restaurangen</span>
+              </div>
+
+              <div class="place" id="place19">
+                <div class="btns" onclick="clicked(this.id)" id="p+19-1"><div class="innerbtns"></div></div>
+                <span class="name">Steens (Kvillsfors)</span>
+              </div>
+
+              <div class="place" id="place20">
+                <div class="btns" onclick="clicked(this.id)" id="p+20-1"><div class="innerbtns"></div></div>
+                <span class="name">Vetlanda Bowling AB</span>
+              </div>
+
+              <div class="place" id="place21">
+                <div class="btns" onclick="clicked(this.id)" id="p+21-1"><div class="innerbtns"></div></div>
+                <span class="name">Vetlanda Pizzeria</span>
+              </div>
+
+              <div class="place" id="place22">
+                <div class="btns" onclick="clicked(this.id)" id="p+22-1"><div class="innerbtns"></div></div>
+                <span class="name">Vägkrogen</span>
+              </div>
+
+              <div class="place" id="place23">
+                <div class="btns" onclick="clicked(this.id)" id="p+23-1"><div class="innerbtns"></div></div>
+                <span class="name">Vänhems Cafe & Vandrarhem</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="inst">
+          <p><span class="insttext">När du visat ditt val klickar du på Skicka.</span></p>
+          <p><span class="insttext">Visa svaret för restaurangen.</span></p>
+        </div>
+        <div class="blank"></div>
+      </div>
+      <a href="betalning.html"><button id="skicka">Skicka</button></a>
+    </div>
+    <footer id="footer">
+      <p lang="en">
+        <a href="https://www.entergate.se/" target="_blank">Powered by Entergate</a>
+        - All rights reserved
+      </p>
+      <p>
+        <a href="https://entergate.se/gdpr/personal-integrity.html" target="_blank">
+        <span lang="sv">Integritet och dataskydd</span> | <span lang="en">Data protection and integrity</span></a>
+      </p>
+    </footer>
+  </body>
+</html>
