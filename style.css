@@ -62,16 +62,17 @@ a{
 
 #content{
   padding: 20px;
+  margin-top: 3em;
 }
 
 #container2{
-  margin-top: 45px;
+  margin-top: 75px;
 }
 
 .btns{
   height: 26px;
   width: 26px;
-  border: solid 2px black;
+  border: solid 3px black;
   border-radius: 100%;
   padding: 24px;
   background-color: #dbdbdb;
@@ -86,9 +87,14 @@ a{
   font-size: 2em;
 }
 
+#place1{
+  margin-top: 0.5em;
+}
+
 .name{
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 8px;
+  font-size: 45px;
 }
 
 .innerbtns{
